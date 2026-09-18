@@ -1,0 +1,639 @@
+<script type="module" src="./assets/main.js"></script>
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta
+    name="description"
+    content="Portfolio Ni Kadek Indah Wulan Pertiwi"
+  >
+
+  <title>Indah Wulan | Personal Portfolio</title>
+</head>
+
+<body class="bg-white text-slate-800">
+
+  <!-- ================= NAVBAR ================= -->
+
+  <header class="sticky top-0 z-50 border-b border-blue-100 bg-white/95 backdrop-blur">
+
+    <nav class="mx-auto flex max-w-6xl items-center justify-between px-6 py-5">
+
+      <a
+        href="index.html"
+        class="text-2xl font-bold tracking-tight text-blue-700"
+      >
+        Indah<span class="text-blue-300">.</span>
+      </a>
+
+      <!-- Desktop Menu -->
+
+      <div class="hidden items-center gap-8 text-sm font-medium md:flex">
+
+        <a
+          href="index.html"
+          class="text-blue-600"
+        >
+          Home
+        </a>
+
+        <a
+          href="about.html"
+          class="transition hover:text-blue-600"
+        >
+          About
+        </a>
+
+        <a
+          href="projects.html"
+          class="transition hover:text-blue-600"
+        >
+          Projects
+        </a>
+
+        <a
+          href="contact.html"
+          class="rounded-full bg-blue-600 px-5 py-2.5 text-white transition hover:bg-blue-700"
+        >
+          Contact
+        </a>
+
+      </div>
+
+      <!-- Mobile Button -->
+
+      <button
+        id="menu-button"
+        class="rounded-lg border border-blue-100 px-3 py-2 text-blue-700 md:hidden"
+      >
+        ☰
+      </button>
+
+    </nav>
+
+    <!-- Mobile Menu -->
+
+    <div
+      id="mobile-menu"
+      class="hidden border-t border-blue-100 bg-white px-6 pb-5 md:hidden"
+    >
+
+      <div class="flex flex-col gap-4 pt-5 text-sm font-medium">
+
+        <a href="index.html" class="text-blue-600">
+          Home
+        </a>
+
+        <a href="about.html">
+          About
+        </a>
+
+        <a href="projects.html">
+          Projects
+        </a>
+
+        <a href="contact.html">
+          Contact
+        </a>
+
+      </div>
+
+    </div>
+
+  </header>
+
+
+  <!-- ================= HERO ================= -->
+
+  <main>
+
+    <section class="relative overflow-hidden bg-gradient-to-br from-blue-50 via-white to-blue-100">
+
+      <!-- Decorative circles -->
+
+      <div class="absolute -right-20 -top-20 h-72 w-72 rounded-full bg-blue-200/40 blur-3xl"></div>
+
+      <div class="absolute -bottom-20 -left-20 h-72 w-72 rounded-full bg-blue-100/60 blur-3xl"></div>
+
+
+      <div class="relative mx-auto flex max-w-6xl flex-col-reverse items-center gap-14 px-6 py-20 md:flex-row md:py-28">
+
+        <!-- HERO TEXT -->
+
+        <div class="flex-1 text-center md:text-left">
+
+          <div class="mb-5 inline-flex items-center gap-2 rounded-full bg-white px-4 py-2 text-sm font-medium text-blue-600 shadow-sm">
+            <span class="h-2 w-2 rounded-full bg-blue-500"></span>
+            Mahasiswi
+          </div>
+
+          <p class="text-sm font-semibold uppercase tracking-[0.3em] text-blue-500">
+            Welcome to my portfolio
+          </p>
+
+          <h1 class="mt-5 max-w-3xl text-5xl font-bold leading-[1.05] tracking-tight text-blue-600 sm:text-6xl lg:text-7xl">
+
+            Ni Kadek Indah
+
+            <span class="block text-blue-600">
+              Wulan Pertiwi.
+            </span>
+
+          </h1>
+
+          <p class="mt-6 max-w-xl text-base leading-relaxed text-slate-500 md:text-lg">
+            Halo, saya Wulan. Saya adalah seorang
+            mahasiswi yang sedang belajar,
+            berkembang, dan mengeksplorasi berbagai
+            hal baru dalam dunia teknologi.
+          </p>
+
+
+          <!-- BUTTON -->
+
+          <div class="mt-8 flex flex-wrap justify-center gap-4 md:justify-start">
+
+            <a
+              href="about.html"
+              class="rounded-full bg-blue-600 px-7 py-3 font-semibold text-white shadow-lg shadow-blue-200 transition hover:-translate-y-0.5 hover:bg-blue-700"
+            >
+              About Me →
+            </a>
+
+            <a
+              href="projects.html"
+              class="rounded-full border border-blue-200 bg-white px-7 py-3 font-semibold text-blue-700 transition hover:bg-blue-50"
+            >
+              My Projects
+            </a>
+
+          </div>
+
+
+          <!-- SMALL INFO -->
+
+          <div class="mt-10 flex flex-wrap justify-center gap-8 text-sm md:justify-start">
+
+            <div>
+              <p class="font-bold text-blue-900">
+                01
+              </p>
+
+              <p class="mt-1 text-slate-400">
+                Portfolio
+              </p>
+            </div>
+
+            <div>
+              <p class="font-bold text-blue-900">
+                JS
+              </p>
+
+              <p class="mt-1 text-slate-400">
+                Assignments
+              </p>
+            </div>
+
+            <div>
+              <p class="font-bold text-blue-900">
+                2026
+              </p>
+
+              <p class="mt-1 text-slate-400">
+                Student
+              </p>
+            </div>
+
+          </div>
+
+        </div>
+
+
+        <!-- HERO PHOTO -->
+
+        <div class="flex-1">
+
+          <div class="relative mx-auto max-w-sm">
+
+            <!-- Background -->
+
+            <div class="absolute -inset-5 rounded-[3rem] bg-blue-200/50 blur-2xl"></div>
+
+            <!-- Image -->
+
+            <div class="relative overflow-hidden rounded-[2.5rem] border-[10px] border-white bg-blue-100 shadow-2xl shadow-blue-200">
+
+              <img
+                src="assets/indah.jpeg"
+                alt="Ni Kadek Indah Wulan Pertiwi"
+                class="aspect-[4/5] w-full object-cover"
+              >
+
+            </div>
+
+
+            <!-- Floating card -->
+
+            <div class="absolute -bottom-6 -left-6 rounded-2xl border border-blue-100 bg-white px-5 py-4 shadow-xl">
+
+              <p class="text-xs text-slate-400">
+                Currently
+              </p>
+
+              <p class="mt-1 font-bold text-blue-700">
+                Learning & Growing ♡
+              </p>
+
+            </div>
+
+
+            <!-- Floating decoration -->
+
+            <div class="absolute -right-4 top-10 flex h-14 w-14 items-center justify-center rounded-2xl bg-blue-600 text-xl text-white shadow-lg shadow-blue-200">
+              ✦
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- ================= ABOUT PREVIEW ================= -->
+
+    <section class="mx-auto max-w-6xl px-6 py-20">
+
+      <div class="grid gap-12 md:grid-cols-2 md:items-center">
+
+        <div>
+
+          <p class="text-sm font-semibold uppercase tracking-[0.25em] text-blue-600">
+            About Me
+          </p>
+
+          <h2 class="mt-4 text-3xl font-bold text-blue-950 md:text-4xl">
+            A little bit about me.
+          </h2>
+
+          <p class="mt-5 leading-relaxed text-slate-500">
+            Saya merupakan seorang mahasiswi yang
+            memiliki semangat untuk terus belajar
+            dan mengembangkan kemampuan.
+          </p>
+
+          <p class="mt-4 leading-relaxed text-slate-500">
+            Bagi saya, proses belajar bukan hanya
+            tentang mendapatkan hasil, tetapi juga
+            tentang pengalaman dan proses untuk
+            menjadi lebih baik.
+          </p>
+
+          <a
+            href="about.html"
+            class="mt-7 inline-block font-semibold text-blue-600 hover:text-blue-800"
+          >
+            More about me →
+          </a>
+
+        </div>
+
+
+        <!-- INFO CARDS -->
+
+        <div class="grid grid-cols-2 gap-4">
+
+          <div class="rounded-2xl bg-blue-50 p-6">
+
+            <p class="text-3xl">
+              🎓
+            </p>
+
+            <h3 class="mt-5 font-bold text-blue-950">
+              Education
+            </h3>
+
+            <p class="mt-2 text-sm leading-relaxed text-slate-500">
+              Sedang menempuh pendidikan sebagai
+              seorang mahasiswi.
+            </p>
+
+          </div>
+
+
+          <div class="mt-8 rounded-2xl bg-blue-600 p-6 text-white">
+
+            <p class="text-3xl">
+              💡
+            </p>
+
+            <h3 class="mt-5 font-bold">
+              Learning
+            </h3>
+
+            <p class="mt-2 text-sm leading-relaxed text-blue-100">
+              Terus belajar dan mencoba hal-hal
+              baru.
+            </p>
+
+          </div>
+
+
+          <div class="-mt-8 rounded-2xl border border-blue-100 p-6">
+
+            <p class="text-3xl">
+              ✨
+            </p>
+
+            <h3 class="mt-5 font-bold text-blue-950">
+              Creativity
+            </h3>
+
+            <p class="mt-2 text-sm leading-relaxed text-slate-500">
+              Mengeksplorasi ide dan pengalaman
+              baru.
+            </p>
+
+          </div>
+
+
+          <div class="rounded-2xl border border-blue-100 p-6">
+
+            <p class="text-3xl">
+              🌱
+            </p>
+
+            <h3 class="mt-5 font-bold text-blue-950">
+              Growth
+            </h3>
+
+            <p class="mt-2 text-sm leading-relaxed text-slate-500">
+              Berkembang sedikit demi sedikit
+              setiap hari.
+            </p>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- ================= SKILLS ================= -->
+
+    <section class="bg-blue-50">
+
+      <div class="mx-auto max-w-6xl px-6 py-20">
+
+        <div class="text-center">
+
+          <p class="text-sm font-semibold uppercase tracking-[0.25em] text-blue-600">
+            What I Learn
+          </p>
+
+          <h2 class="mt-3 text-3xl font-bold text-blue-950">
+            Skills & Interests
+          </h2>
+
+          <p class="mx-auto mt-4 max-w-xl text-slate-500">
+            Beberapa kemampuan dan bidang yang
+            sedang saya pelajari.
+          </p>
+
+        </div>
+
+
+        <div class="mt-10 flex flex-wrap justify-center gap-4">
+
+          <div class="rounded-full bg-white px-6 py-3 font-medium text-blue-700 shadow-sm">
+            HTML
+          </div>
+
+          <div class="rounded-full bg-white px-6 py-3 font-medium text-blue-700 shadow-sm">
+            CSS
+          </div>
+
+          <div class="rounded-full bg-white px-6 py-3 font-medium text-blue-700 shadow-sm">
+            JavaScript
+          </div>
+
+          <div class="rounded-full bg-white px-6 py-3 font-medium text-blue-700 shadow-sm">
+            Tailwind CSS
+          </div>
+
+          <div class="rounded-full bg-white px-6 py-3 font-medium text-blue-700 shadow-sm">
+            UI Design
+          </div>
+
+          <div class="rounded-full bg-white px-6 py-3 font-medium text-blue-700 shadow-sm">
+            Problem Solving
+          </div>
+
+          <div class="rounded-full bg-white px-6 py-3 font-medium text-blue-700 shadow-sm">
+            Communication
+          </div>
+
+          <div class="rounded-full bg-white px-6 py-3 font-medium text-blue-700 shadow-sm">
+            Teamwork
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- ================= PROJECT PREVIEW ================= -->
+
+    <section class="mx-auto max-w-6xl px-6 py-20">
+
+      <div class="flex flex-col justify-between gap-5 md:flex-row md:items-end">
+
+        <div>
+
+          <p class="text-sm font-semibold uppercase tracking-[0.25em] text-blue-600">
+            My Work
+          </p>
+
+          <h2 class="mt-3 text-3xl font-bold text-blue-950 md:text-4xl">
+            JavaScript Assignments
+          </h2>
+
+        </div>
+
+        <a
+          href="projects.html"
+          class="font-semibold text-blue-600 hover:text-blue-800"
+        >
+          View all assignments →
+        </a>
+
+      </div>
+
+
+      <div class="mt-10 grid gap-6 md:grid-cols-3">
+
+        <article class="rounded-2xl border border-blue-100 p-6 transition hover:-translate-y-1 hover:shadow-xl hover:shadow-blue-100">
+
+          <div class="flex h-12 w-12 items-center justify-center rounded-xl bg-blue-100 text-xl">
+            JS
+          </div>
+
+          <p class="mt-6 text-xs font-semibold uppercase tracking-wider text-blue-500">
+            JavaScript
+          </p>
+
+          <h3 class="mt-2 text-xl font-bold text-blue-950">
+            Kalkulator Sederhana
+          </h3>
+
+          <p class="mt-3 text-sm leading-relaxed text-slate-500">
+            Tugas JavaScript yang dikerjakan
+            sebagai bagian dari pembelajaran.
+          </p>
+
+        </article>
+
+
+        <article class="rounded-2xl border border-blue-100 p-6 transition hover:-translate-y-1 hover:shadow-xl hover:shadow-blue-100">
+
+          <div class="flex h-12 w-12 items-center justify-center rounded-xl bg-blue-100 text-xl">
+            JS
+          </div>
+
+          <p class="mt-6 text-xs font-semibold uppercase tracking-wider text-blue-500">
+            JavaScript
+          </p>
+
+          <h3 class="mt-2 text-xl font-bold text-blue-950">
+            Cek Bilangan Ganjil/Genap
+          </h3>
+
+          <p class="mt-3 text-sm leading-relaxed text-slate-500">
+            Latihan pemrograman menggunakan
+            konsep JavaScript.
+          </p>
+
+        </article>
+
+
+        <article class="rounded-2xl border border-blue-100 p-6 transition hover:-translate-y-1 hover:shadow-xl hover:shadow-blue-100">
+
+          <div class="flex h-12 w-12 items-center justify-center rounded-xl bg-blue-100 text-xl">
+            JS
+          </div>
+
+          <p class="mt-6 text-xs font-semibold uppercase tracking-wider text-blue-500">
+            JavaScript
+          </p>
+
+          <h3 class="mt-2 text-xl font-bold text-blue-950">
+            To Do List
+          </h3>
+
+          <p class="mt-3 text-sm leading-relaxed text-slate-500">
+            Implementasi logika dan interaksi
+            menggunakan JavaScript.
+          </p>
+
+        </article>
+
+      </div>
+
+    </section>
+
+
+    <!-- ================= CTA ================= -->
+
+    <section class="mx-auto max-w-6xl px-6 pb-20">
+
+      <div class="overflow-hidden rounded-3xl bg-blue-600 px-8 py-12 text-center text-white md:px-16">
+
+        <p class="text-sm font-medium uppercase tracking-[0.25em] text-blue-200">
+          Let's connect
+        </p>
+
+        <h2 class="mt-4 text-3xl font-bold md:text-4xl">
+          Thank you for visiting my portfolio.
+        </h2>
+
+        <p class="mx-auto mt-4 max-w-xl leading-relaxed text-blue-100">
+          Jangan ragu untuk menghubungi saya.
+          Saya selalu terbuka untuk belajar,
+          berdiskusi, dan mendapatkan pengalaman baru.
+        </p>
+
+        <a
+          href="contact.html"
+          class="mt-7 inline-block rounded-full bg-white px-7 py-3 font-semibold text-blue-700 transition hover:bg-blue-50"
+        >
+          Get in Touch
+        </a>
+
+      </div>
+
+    </section>
+
+  </main>
+
+
+  <!-- ================= FOOTER ================= -->
+
+  <footer class="border-t border-blue-100">
+
+    <div class="mx-auto max-w-6xl px-6 py-10">
+
+      <div class="flex flex-col justify-between gap-6 md:flex-row md:items-center">
+
+        <div>
+
+          <p class="text-xl font-bold text-blue-700">
+            Wulan<span class="text-blue-300">.</span>
+          </p>
+
+          <p class="mt-2 text-sm text-slate-400">
+            Personal Portfolio
+          </p>
+
+        </div>
+
+        <div class="flex gap-6 text-sm text-slate-500">
+
+          <a href="about.html" class="hover:text-blue-600">
+            About
+          </a>
+
+          <a href="projects.html" class="hover:text-blue-600">
+            Projects
+          </a>
+
+          <a href="contact.html" class="hover:text-blue-600">
+            Contact
+          </a>
+
+        </div>
+
+      </div>
+
+      <div class="mt-8 border-t border-blue-100 pt-6 text-center text-xs text-slate-400">
+
+        © 2026 Ni Kadek Indah Wulan Pertiwi. All rights reserved.
+
+      </div>
+
+    </div>
+
+  </footer>
+
+
+  <script type="module" src="/src/main.js"></script>
+
+</body>
+</html>
